@@ -83,6 +83,8 @@
                 <div class="title m-b-md">
                     @if (Auth::check())
                         Benvenuto {{Auth::user()->name}}
+                    @else
+                    Laravel
                     @endif
                 </div>
 
